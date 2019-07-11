@@ -125,8 +125,7 @@ namespace ActionFunc2
             ArrSort.Sort(userInfos, UserInfo.UserAgeDecremental);
             foreach (var ui in userInfos)
                 Console.WriteLine(ui);
-
-
+            
             Console.WriteLine("Сортируем исходный список из объектов по возрастанию возраста: \n-------------------------------------\n");
             ArrSort.Sort(userInfos, UserInfo.UserAgeIncremental);
             foreach (var ui in userInfos)
